@@ -1,17 +1,13 @@
 algoritmo "Nome do Programa"
-// Disciplina  :  [Linguagem e Lógica de Programação]
-// Professor   : [Nome do Professor]
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : ${DATA_ATUAL}/${MES_ATUAL}/${ANO_ATUAL}
 var
-
-teste: caractere
+contador , soma , numero , media: real
 
 inicio
-
-teste <- "Este é um teste."
-escreval ("Variável Teste")
-escreva ("O valor da variável TESTE é: " + teste)
-
+para contador de 1 ate 4 faca
+    escreva("Digite o ", contador , " numero:")
+    leia(numero)
+    soma <- soma + numero
+    media <- soma / 4
+fimpara
+escreva("A média dos números é: ", media)
 fimalgoritmo
